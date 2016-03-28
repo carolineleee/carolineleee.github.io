@@ -1,3 +1,5 @@
+
+/* to create a border
 #top, #bottom, #left, #right {
 	background: rgb(255, 242, 218);
 	position: fixed;
@@ -16,7 +18,7 @@
 		}
 		#top { top: 0; }
 		#bottom { bottom: 0; }
-
+*/
 
 .portrait {
 	width: 20cm;
