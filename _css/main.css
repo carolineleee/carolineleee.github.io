@@ -20,6 +20,12 @@
 		#bottom { bottom: 0; }
 */
 
+
+h1 {
+	color: blue;
+	font-size: 36px;
+	text-align: center;
+}
 .portrait {
 	width: 20cm;
     height: 20cm;
