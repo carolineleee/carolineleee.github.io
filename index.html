@@ -1,52 +1,202 @@
+<!-- Copyright (c) 2016 Caroline Lee Xiang Ying. All rights reserved. -->
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title> Caroline Lee </title>
-<link href="_css/main.css" rel="stylesheet" type="text/css">
+<title>Caroline Lee</title>
+<link href="_css/styles.css" rel="stylesheet" type="text/css">
+<link href= "_css/flexslider1.css" rel = "stylesheet" type =  "type/css">
+<link href= "js/main.js" rel = "stylesheet" type = "js">
+<link href="_css/queries.css" rel="stylesheet">
+<link href="_css/animate.css" rel="stylesheet">
+
+
+
+<style> 
+
+body {
+	padding:0;
+	margin:0;
+}
+</style>
 </head>
 
 <body>
-<h1> Caroline Lee </h1>
-<style> 
 
-h1 {
-	color: blue;
-	font-size: 36px;
-	text-align: center;
-}
+<!-- Skroll.js -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="js/skrollr.js"></script>
+<script src="js/main.js"></script>
 
-</style>
+    <header>
+    	<section id = "slide-1">
+        <div class="header">
+            <div class="header-inner">
+                <h1 class = "name"> Caroline Lee </h1> 
+                <h1 class = "name"> Xiang Ying </h1>
+                	<div class = "navigator-icons" style = "text-align:center">
+                		<a href = "#intro" class = "me">
+		                	<span class = "me"> </span>
+		                	<img class="navigate" src = "img/navigator/me.png">
+	                	</a>
+		                <a href = "#skills" class = "skills-icon">
+		                	<span class = "skills"> </span>
+		                	<img class="navigate" src = "img/navigator/skills.png">
+	                	</a>
+		                <a href = "#project" class = "portfolio-icon">
+		                	<span class = "portfolio"> </span>
+		                	<img class="navigate" src = "img/navigator/portfolio.png">
+	                	</a>
+		                <a href = "#" class = "contact-icon">	
+			                <span class = "contact"> </span>    
+		                	<img class="navigate" src = "img/navigator/contact.png"> 
+	                	</a>  
+                	</div>         
+            </div>
+        </div>
+        </section>
+    </header>
+    	
+
+    	<section class = "intro" id = "intro">
+    	<div class = "about">
+    		<div class = "icon"> </div>
+    		<div class = "about-inner">
+    			<h1 class = "arrow"> About me </h1>
+    			<p class = "about-me"> 
+    			Hello there! My name is Caroline Lee, my Mandarin name is Lee Xiang Ying (李湘滢). I am originally from Kuala Lumpur, Malaysia but have recently moved to New York City to pursue my passion for technology and innovation. I am an undergraduate student at New York University majoring in Computer Science and Economics &amp; minoring in Philosophy. I speak five languages: Mandarin, Malay, English, Cantonese and Hokkien (Mandarin dialects).</p>
+    		</div>
+    	</div>
+    	</section>
 
 
-<div class = "tab">
-	<ul class = "tab-links">
-		<li class = "active"> <a href = "home"> Home </a></li>
-		<!-- <li><a href="projects"> Projects </a></li> -->
-			<li class = "dropdown">
-			<a class="dropdown-toggle" data-toggle="dropdown" href="projects">Projects
-    			<span class="caret"></span></a>
-    			<ul class="dropdown-menu">
-      				<li><a href="#">Submenu 1</a></li>
-      				<li><a href="#">Submenu 2</a></li>
-      				</ul>		
-      				</li>
-        <li><a href="contact">Contact Information</a></li>
-    </ul>
 
-</div>
+    	<section class = "skills" id = "skills">
+    	<div class = "skills-set">
+    		<div class = "slider">
+    			<h1 class = "arrow-2"> Skills </h1>
+
+    		<div id = "slides">
+
+    			<div id = "image-align">
+    			
+    			<figure>
+    				<img class = "img" src = "img/web-dev.png" alt = "skills">
+    		<h2> Web Development </h2>
+    			</figure>
+
+    			<figure>
+    		    	<img class ="img" src = "img/ios-dev.png" alt = "skills">
+    		<h2> iOS Development </h2>
+    			</figure>
+
+    			<figure>
+    		    	<img class = "img" src = "img/python.png" alt = "skills">
+    		<h2> Python </h2>
+    			</figure>
+
+    			<figure>
+    		    	<img class = "img" src = "img/java.png" alt = "skills">
+    		<h2> Java </h2>
+    			</figure>
+
+    			</div>
+    	   	
+    	 	</div>
+    	 
+    	 </div>
 
 
-<img src = "img/portrait.jpg" width = "150" height = "200">
+    	</div>
+
+    	</div>
+
+		</ul>
+		</li>
+			</section>
 
 
 
 
-</body>
+		<section class = "portfolio" id = "project">
+			<div class = "skills-set">
+    		<h3 class = "arrow-2"> Links </h3>
+
+    		<div id = "links">
+    			
+    			<div id = "image-align">
+
+        <figure>
+		<ul class = "img-list">
+			<li>
+			<a href= "#" class = "portfolio-box">
+				<img src="img/projects.jpg" class="img-responsive" alt="laptopcoffee";>
+				<span class = "portfolio-box-content"> <span> Projects </span></span>
+			</a>
+			</li>
+            </ul>
+        </figure>
+
+		<figure>
+        <ul class = "img-list">
+            <li>
+			<a href = "#" class = "portfolio-box">
+				<img src="img/interests.jpg" class="img-responsive" alt="tools";>
+				<span class = "portfolio-box-content"> <span> Interests </span></span>
+			</a>
+            </li>
+            </ul>
+        </figure>
+
+
+				</div>
+            </div>
+        </div>
+		</section>
+
+
+
+
+<!--
+		<div class = "projects">
+		<div class = "projects-inner">
+		<a href = "#" class = "portfolio-box">
+			<img src="img/projects.jpg" class="img-responsive" alt="laptopcoffee">
+			<div class = "portfolio-box-caption">
+				<div class="portfolio-box-caption-content">
+                    <div class="project-category text-faded">
+                                    Category
+                     </div>
+				<div class="project-name">
+				Projects
+				</div>
+			</div>
+
+			</a>
+			</div>
+		</div>
+		-->
+
+		</section>
+
+
+
+
+
+
+
+<!--
 
 <footer role="contentinfo">
   <p> Copyright &copy; 2016 Caroline Lee Xiang Ying. All rights reserved. </p>
 </footer>
+-->
+<script src="js/jquery.flexslider.js"></script>
+
+
+</body>
+
 
 </html>
 
